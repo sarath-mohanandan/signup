@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/signup/static/css/main.62d87067.chunk.css",
+    "main.js": "/signup/static/js/main.0517671a.chunk.js",
+    "main.js.map": "/signup/static/js/main.0517671a.chunk.js.map",
+    "runtime-main.js": "/signup/static/js/runtime-main.a96bccf1.js",
+    "runtime-main.js.map": "/signup/static/js/runtime-main.a96bccf1.js.map",
+    "static/css/2.15a7a700.chunk.css": "/signup/static/css/2.15a7a700.chunk.css",
+    "static/js/2.d7303834.chunk.js": "/signup/static/js/2.d7303834.chunk.js",
+    "static/js/2.d7303834.chunk.js.map": "/signup/static/js/2.d7303834.chunk.js.map",
+    "static/js/3.7a3fe232.chunk.js": "/signup/static/js/3.7a3fe232.chunk.js",
+    "static/js/3.7a3fe232.chunk.js.map": "/signup/static/js/3.7a3fe232.chunk.js.map",
+    "index.html": "/signup/index.html",
+    "static/css/2.15a7a700.chunk.css.map": "/signup/static/css/2.15a7a700.chunk.css.map",
+    "static/css/main.62d87067.chunk.css.map": "/signup/static/css/main.62d87067.chunk.css.map",
+    "static/js/2.d7303834.chunk.js.LICENSE.txt": "/signup/static/js/2.d7303834.chunk.js.LICENSE.txt",
+    "static/media/Fanconvo-header-logo.c4ba8d22.png": "/signup/static/media/Fanconvo-header-logo.c4ba8d22.png",
+    "static/media/index.scss": "/signup/static/media/Poppins-Regular.8081832f.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a96bccf1.js",
+    "static/css/2.15a7a700.chunk.css",
+    "static/js/2.d7303834.chunk.js",
+    "static/css/main.62d87067.chunk.css",
+    "static/js/main.0517671a.chunk.js"
+  ]
+}
