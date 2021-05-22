@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from "./logo.svg";
+import "./App.css";
+import FanSignup from "./components/FanSignup";
+import TalentSignUp from "./components/TalentSignUp";
+
+import { Container, Tabs } from "react-bootstrap";
+import { Tab } from "bootstrap";
+import Header from "./components/Header";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<>
+			<Container>
+				<Header />
+				<Container className="form-tabs">
+					<Tabs
+						defaultActiveKey="fan"
+						className="form-tabs"
+						id="uncontrolled-tab">
+						<Tab
+							eventKey="fan"
+							className="custom-tab"
+							title="FAN SIGNUP">
+							<FanSignup />
+						</Tab>
+						<Tab eventKey="talent" title="TALENT SIGNUP">
+							<Container className="App">
+								<TalentSignUp />
+							</Container>
+						</Tab>
+					</Tabs>
+				</Container>
+			</Container>
+		</>
+	);
 }
 
 export default App;

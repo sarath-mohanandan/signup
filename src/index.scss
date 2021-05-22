@@ -1,0 +1,71 @@
+@font-face {
+	font-family: "Poppins";
+	src: url("./assets/fonts/Poppins-Regular.ttf");
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+body,
+div,
+span,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-family: "Poppins";
+}
+body {
+	background-color: #121212;
+}
+.form-tabs {
+	background-color: #242424;
+	border-radius: 56px;
+	overflow: hidden;
+	margin-top: 48px;
+}
+.nav-tabs {
+	display: flex;
+	justify-content: center;
+	border: none;
+	padding: 5px 0;
+	.nav-link {
+		border-radius: 50px;
+		background-color: #000;
+		color: #fff;
+		&.active {
+			background-color: #86ec8e;
+			color: #000;
+		}
+	}
+}
+.form-group {
+	color: #fff;
+	.form-control {
+		background-color: inherit;
+		border-color: #86ec8e;
+		border-radius: 50px;
+		color: #fff;
+	}
+}
+.title {
+	color: #fff;
+}
+.form {
+	max-width: 500px;
+}
+select option {
+	margin: 40px;
+	background-color: #242424;
+	color: #fff;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+.btn {
+	&.btn-primary {
+		background-color: #86ec8e;
+		color: #000;
+	}
+}
